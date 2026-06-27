@@ -1,158 +1,184 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ichiryu龍 安心SOSカード</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, "Hiragino Sans", "Yu Gothic", sans-serif;
-      background: #fff7df;
-      color: #222;
-      line-height: 1.6;
-    }
-    .container {
-      max-width: 720px;
-      margin: auto;
-      padding: 16px;
-    }
-    .header {
-      background: #e60012;
-      color: white;
-      text-align: center;
-      padding: 24px 16px;
-      border-radius: 0 0 24px 24px;
-    }
-    .header h1 {
-      margin: 0;
-      font-size: 30px;
-    }
-    .header p {
-      margin: 8px 0 0;
-      font-size: 16px;
-      font-weight: bold;
-    }
-    .card {
-      background: white;
-      margin: 16px 0;
-      padding: 18px;
-      border-radius: 18px;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.12);
-      border-left: 8px solid #e60012;
-    }
-    h2 {
-      margin-top: 0;
-      color: #e60012;
-      font-size: 22px;
-    }
-    .name {
-      font-size: 28px;
-      font-weight: bold;
-    }
-    .btn {
-      display: block;
-      background: #00a89c;
-      color: white;
-      text-align: center;
-      padding: 16px;
-      border-radius: 14px;
-      text-decoration: none;
-      font-size: 22px;
-      font-weight: bold;
-      margin: 12px 0;
-    }
-    .item {
-      margin: 10px 0;
-      font-size: 18px;
-    }
-    .label {
-      font-weight: bold;
-      color: #555;
-    }
-    .notice {
-      background: #fff0f0;
-      border: 2px solid #e60012;
-      padding: 14px;
-      border-radius: 14px;
-      font-weight: bold;
-    }
-    .footer {
-      text-align: center;
-      font-size: 14px;
-      margin: 28px 0 10px;
-      color: #555;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ichiryu龍 安心SOSカード</title>
+<style>
+body{
+  margin:0;
+  font-family:"Yu Gothic","Hiragino Sans",Arial,sans-serif;
+  background:#fff7df;
+  color:#222;
+  line-height:1.6;
+}
+header{
+  background:#d90000;
+  color:#fff;
+  text-align:center;
+  padding:26px 16px;
+}
+header h1{margin:0;font-size:30px;}
+header p{margin:8px 0 0;font-weight:bold;}
+.container{max-width:760px;margin:auto;padding:16px;}
+.alert{
+  background:#fff;
+  border:3px solid #d90000;
+  border-radius:16px;
+  padding:18px;
+  margin:16px 0;
+}
+.card{
+  background:#fff;
+  border-radius:18px;
+  padding:18px;
+  margin:16px 0;
+  box-shadow:0 3px 10px rgba(0,0,0,.12);
+  border-left:8px solid #d90000;
+}
+h2{margin-top:0;color:#d90000;font-size:22px;}
+.item{font-size:18px;margin:8px 0;}
+.label{font-weight:bold;color:#444;}
+.btn{
+  display:block;
+  background:#008b7a;
+  color:#fff;
+  text-align:center;
+  padding:15px;
+  border-radius:14px;
+  text-decoration:none;
+  font-size:21px;
+  font-weight:bold;
+  margin:10px 0;
+}
+.small{font-size:14px;color:#555;}
+.footer{text-align:center;margin:30px 0 10px;color:#555;font-size:14px;}
+</style>
 </head>
+
 <body>
 
-  <div class="header">
-    <h1>🚨 緊急時情報</h1>
-    <p>Ichiryu龍 安心SOSカード</p>
-    <p>救助・医療関係者の方へ</p>
-  </div>
+<header>
+  <h1>🚨 緊急時情報</h1>
+  <p>Ichiryu龍 安心SOSカード</p>
+  <p>救助・医療関係者の方へ</p>
+</header>
 
-  <div class="container">
+<div class="container">
 
-    <div class="notice">
-      このページは、緊急時に必要な情報を確認するためのページです。<br>
-      本人が登録した情報をもとに、必要に応じてご確認ください。
-    </div>
+<div class="alert">
+  <h2>救護された方へ</h2>
+  <p><strong>まず119番へ通報してください。</strong></p>
+  <p>通報時には、現在地・ケガや体調の様子・意識の有無・呼吸の有無・周囲の危険の有無をお伝えください。</p>
+  <p>スマートフォンの位置情報や地図アプリを使うと、現在地を正確に伝えやすくなります。</p>
+</div>
 
-    <div class="card">
-      <h2>👤 本人情報</h2>
-      <div class="name">山田 花子</div>
-      <div class="item"><span class="label">ふりがな：</span>やまだ はなこ</div>
-      <div class="item"><span class="label">生年月日：</span>1950年1月1日</div>
-      <div class="item"><span class="label">血液型：</span>A型</div>
-    </div>
+<div class="card">
+  <h2>👤 基本情報</h2>
+  <div class="item"><span class="label">氏名：</span>山田 花子</div>
+  <div class="item"><span class="label">ふりがな：</span>やまだ はなこ</div>
+  <div class="item"><span class="label">生年月日：</span>1950年1月1日</div>
+  <div class="item"><span class="label">血液型：</span>A型</div>
+</div>
 
-    <div class="card">
-      <h2>📞 緊急連絡先</h2>
-      <a class="btn" href="tel:09000000000">第一連絡先へ電話</a>
-      <div class="item"><span class="label">続柄：</span>長女</div>
-      <div class="item"><span class="label">電話：</span>090-0000-0000</div>
+<div class="card">
+  <h2>📞 緊急連絡先</h2>
+  <a class="btn" href="tel:09000000000">第一連絡先へ電話</a>
+  <div class="item"><span class="label">氏名：</span>山田 太郎</div>
+  <div class="item"><span class="label">続柄：</span>長男</div>
+  <div class="item"><span class="label">電話：</span>090-0000-0000</div>
 
-      <a class="btn" href="tel:08000000000">第二連絡先へ電話</a>
-      <div class="item"><span class="label">続柄：</span>長男</div>
-      <div class="item"><span class="label">電話：</span>080-0000-0000</div>
-    </div>
+  <a class="btn" href="tel:08000000000">第二連絡先へ電話</a>
+  <div class="item"><span class="label">氏名：</span>山田 桜</div>
+  <div class="item"><span class="label">続柄：</span>長女</div>
+  <div class="item"><span class="label">電話：</span>080-0000-0000</div>
+</div>
 
-    <div class="card">
-      <h2>🏥 医療情報</h2>
-      <div class="item"><span class="label">持病：</span>記入してください</div>
-      <div class="item"><span class="label">アレルギー：</span>記入してください</div>
-      <div class="item"><span class="label">常用薬：</span>記入してください</div>
-      <div class="item"><span class="label">かかりつけ病院：</span>記入してください</div>
-    </div>
+<div class="card">
+  <h2>🏥 医療情報</h2>
+  <div class="item"><span class="label">持病：</span>記入してください</div>
+  <div class="item"><span class="label">アレルギー：</span>記入してください</div>
+  <div class="item"><span class="label">常用薬：</span>記入してください</div>
+  <div class="item"><span class="label">かかりつけ病院：</span>記入してください</div>
+  <div class="item"><span class="label">主治医：</span>記入してください</div>
+  <div class="item"><span class="label">ペースメーカー：</span>なし</div>
+  <div class="item"><span class="label">人工透析：</span>なし</div>
+  <div class="item"><span class="label">補聴器：</span>なし</div>
+  <div class="item"><span class="label">杖・車椅子：</span>なし</div>
+</div>
 
-    <div class="card">
-      <h2>🚗 車・保険情報</h2>
-      <div class="item"><span class="label">保険会社：</span>記入してください</div>
-      <div class="item"><span class="label">ロードサービス：</span>記入してください</div>
-      <div class="item"><span class="label">車種：</span>記入してください</div>
-      <div class="item"><span class="label">ナンバー：</span>記入してください</div>
-    </div>
+<div class="card">
+  <h2>🚑 緊急時に伝えてほしいこと</h2>
+  <div class="item">例：左耳が聞こえません。人工関節があります。緊急時は長女へ連絡してください。</div>
+</div>
 
-    <div class="card">
-      <h2>🏠 災害・家族情報</h2>
-      <div class="item"><span class="label">避難予定場所：</span>記入してください</div>
-      <div class="item"><span class="label">ペット：</span>記入してください</div>
-      <div class="item"><span class="label">要介護者：</span>記入してください</div>
-    </div>
+<div class="card">
+  <h2>🚗 車両・保険情報</h2>
+  <div class="item"><span class="label">車種：</span>記入してください</div>
+  <div class="item"><span class="label">ナンバー：</span>記入してください</div>
+  <div class="item"><span class="label">自動車保険会社：</span>記入してください</div>
+  <div class="item"><span class="label">保険会社連絡先：</span>記入してください</div>
+  <div class="item"><span class="label">ロードサービス：</span>記入してください</div>
+  <div class="item"><span class="label">ドライブレコーダー：</span>あり／なし</div>
+</div>
 
-    <div class="card">
-      <h2>📝 その他伝えてほしいこと</h2>
-      <div class="item">ここに自由記入できます。</div>
-    </div>
+<div class="card">
+  <h2>🌊 災害・避難情報</h2>
+  <div class="item"><span class="label">指定避難所：</span>記入してください</div>
+  <div class="item"><span class="label">家族との第一集合場所：</span>記入してください</div>
+  <div class="item"><span class="label">家族との第二集合場所：</span>記入してください</div>
+  <div class="item"><span class="label">災害時の家族ルール：</span>記入してください</div>
+  <div class="item"><span class="label">避難時の連絡方法：</span>記入してください</div>
+</div>
 
-    <div class="footer">
-      Powered by Ichiryu龍 防災用品<br>
-      ※この情報は本人または家族の申告に基づく参考情報です。
-    </div>
+<div class="card">
+  <h2>👨‍👩‍👧‍👦 家族情報</h2>
+  <div class="item"><span class="label">一人暮らし：</span>はい／いいえ</div>
+  <div class="item"><span class="label">同居家族：</span>記入してください</div>
+  <div class="item"><span class="label">要介護者：</span>あり／なし</div>
+  <div class="item"><span class="label">小さなお子様：</span>あり／なし</div>
+</div>
 
-  </div>
+<div class="card">
+  <h2>🐶 ペット情報</h2>
+  <div class="item"><span class="label">犬：</span>記入してください</div>
+  <div class="item"><span class="label">猫：</span>記入してください</div>
+  <div class="item"><span class="label">その他：</span>記入してください</div>
+  <div class="item"><span class="label">ペット避難先：</span>記入してください</div>
+  <div class="item"><span class="label">ペット緊急連絡先：</span>記入してください</div>
+</div>
 
+<div class="card">
+  <h2>🏠 自宅情報</h2>
+  <div class="item"><span class="label">自宅住所：</span>記入してください</div>
+  <div class="item"><span class="label">鍵の預け先：</span>記入してください</div>
+  <div class="item"><span class="label">自宅に残る家族：</span>記入してください</div>
+  <div class="item"><span class="label">自宅に残る要介護者：</span>記入してください</div>
+</div>
+
+<div class="card">
+  <h2>💳 保険・身分証情報</h2>
+  <div class="item"><span class="label">健康保険証：</span>携帯／自宅保管</div>
+  <div class="item"><span class="label">マイナ保険証：</span>利用あり／なし</div>
+  <div class="item"><span class="label">お薬手帳：</span>記入してください</div>
+  <div class="item"><span class="label">運転免許証：</span>携帯／なし</div>
+</div>
+
+<div class="card">
+  <h2>📝 その他</h2>
+  <div class="item">自由記入欄です。</div>
+</div>
+
+<div class="card">
+  <h2>🔄 最終更新日</h2>
+  <div class="item">2026年6月27日</div>
+</div>
+
+<div class="footer">
+  Powered by Ichiryu龍 防災用品<br>
+  <span class="small">※この情報は本人または家族の申告に基づく参考情報です。</span>
+</div>
+
+</div>
 </body>
 </html>
