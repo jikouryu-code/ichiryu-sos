@@ -1,1 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ichiryu龍 安心SOSカード</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, "Hiragino Sans", "Yu Gothic", sans-serif;
+      background: #fff7df;
+      color: #222;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 720px;
+      margin: auto;
+      padding: 16px;
+    }
+    .header {
+      background: #e60012;
+      color: white;
+      text-align: center;
+      padding: 24px 16px;
+      border-radius: 0 0 24px 24px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 30px;
+    }
+    .header p {
+      margin: 8px 0 0;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .card {
+      background: white;
+      margin: 16px 0;
+      padding: 18px;
+      border-radius: 18px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+      border-left: 8px solid #e60012;
+    }
+    h2 {
+      margin-top: 0;
+      color: #e60012;
+      font-size: 22px;
+    }
+    .name {
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .btn {
+      display: block;
+      background: #00a89c;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      border-radius: 14px;
+      text-decoration: none;
+      font-size: 22px;
+      font-weight: bold;
+      margin: 12px 0;
+    }
+    .item {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+    .label {
+      font-weight: bold;
+      color: #555;
+    }
+    .notice {
+      background: #fff0f0;
+      border: 2px solid #e60012;
+      padding: 14px;
+      border-radius: 14px;
+      font-weight: bold;
+    }
+    .footer {
+      text-align: center;
+      font-size: 14px;
+      margin: 28px 0 10px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
 
+  <div class="header">
+    <h1>🚨 緊急時情報</h1>
+    <p>Ichiryu龍 安心SOSカード</p>
+    <p>救助・医療関係者の方へ</p>
+  </div>
+
+  <div class="container">
+
+    <div class="notice">
+      このページは、緊急時に必要な情報を確認するためのページです。<br>
+      本人が登録した情報をもとに、必要に応じてご確認ください。
+    </div>
+
+    <div class="card">
+      <h2>👤 本人情報</h2>
+      <div class="name">山田 花子</div>
+      <div class="item"><span class="label">ふりがな：</span>やまだ はなこ</div>
+      <div class="item"><span class="label">生年月日：</span>1950年1月1日</div>
+      <div class="item"><span class="label">血液型：</span>A型</div>
+    </div>
+
+    <div class="card">
+      <h2>📞 緊急連絡先</h2>
+      <a class="btn" href="tel:09000000000">第一連絡先へ電話</a>
+      <div class="item"><span class="label">続柄：</span>長女</div>
+      <div class="item"><span class="label">電話：</span>090-0000-0000</div>
+
+      <a class="btn" href="tel:08000000000">第二連絡先へ電話</a>
+      <div class="item"><span class="label">続柄：</span>長男</div>
+      <div class="item"><span class="label">電話：</span>080-0000-0000</div>
+    </div>
+
+    <div class="card">
+      <h2>🏥 医療情報</h2>
+      <div class="item"><span class="label">持病：</span>記入してください</div>
+      <div class="item"><span class="label">アレルギー：</span>記入してください</div>
+      <div class="item"><span class="label">常用薬：</span>記入してください</div>
+      <div class="item"><span class="label">かかりつけ病院：</span>記入してください</div>
+    </div>
+
+    <div class="card">
+      <h2>🚗 車・保険情報</h2>
+      <div class="item"><span class="label">保険会社：</span>記入してください</div>
+      <div class="item"><span class="label">ロードサービス：</span>記入してください</div>
+      <div class="item"><span class="label">車種：</span>記入してください</div>
+      <div class="item"><span class="label">ナンバー：</span>記入してください</div>
+    </div>
+
+    <div class="card">
+      <h2>🏠 災害・家族情報</h2>
+      <div class="item"><span class="label">避難予定場所：</span>記入してください</div>
+      <div class="item"><span class="label">ペット：</span>記入してください</div>
+      <div class="item"><span class="label">要介護者：</span>記入してください</div>
+    </div>
+
+    <div class="card">
+      <h2>📝 その他伝えてほしいこと</h2>
+      <div class="item">ここに自由記入できます。</div>
+    </div>
+
+    <div class="footer">
+      Powered by Ichiryu龍 防災用品<br>
+      ※この情報は本人または家族の申告に基づく参考情報です。
+    </div>
+
+  </div>
+
+</body>
+</html>
